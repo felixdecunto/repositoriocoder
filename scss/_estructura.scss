@@ -1,0 +1,73 @@
+body {
+	background-image: url("https://cdn.vox-cdn.com/thumbor/qlNsjn2VhdJgJhDIzbZDY6jPbrA=/0x0:1192x720/1200x800/filters:focal(501x265:691x455)/cdn.vox-cdn.com/uploads/chorus_image/image/53697087/pi_day.0.jpg");
+	background-position: inherit;
+	background-repeat: repeat-x;
+	background-color: rgb(0, 0, 0);
+	background-size: 35%;
+	grid-template-columns: repeat (2, 1fr);
+	grid-row-start: auto;
+}
+
+nav {
+	font-family: 'press start 2P', cursi ve;
+	color: rgb(72, 58, 90);
+	border: rgb(124, 124, 124) 1px solid;
+    background-color: black;
+	padding: 15px;
+	margin: 140px;
+}
+
+section {
+	grid-area: section;
+}
+header {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "section publicidad" "section publicidad" "section publicidad" "section publicidad";
+}
+
+.contenedorPadre {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 25px;
+}
+
+#nosotros{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: beige;
+	margin-bottom: 400px;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: rgba(75, 51, 97, 0.295);
+	border: rgba(75, 51, 97, 0.712) 2px solid;
+}
+
+#nos {
+	text-align: center;
+	margin-top: 100px;
+	border: rgba(75, 51, 97, 0.712) 2,5px solid;
+	margin-left: 550px;
+	margin-right: 550px;
+}   
+
+
+.componentes {
+	display: flex;
+	flex-direction: row;
+	margin: 40px;
+	width: 40%;
+	height: 300px;
+	border: rgba(74, 39, 121, 0.747) 1px solid;
+	&:hover {
+		transform: scale(110%, 110%);
+		border:#d9d9d9 solid 2px;
+	}
+}
+
