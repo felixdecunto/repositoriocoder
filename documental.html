@@ -8,9 +8,11 @@
     <link href ="imagenes/logo.webp" rel="icon">
     <link href="css/bootstrap.min.css" rel="stylesheet"> 
     <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Esqueleto HTML</title>
 
 </head>
+
 <body> 
     <header>
         <nav>
@@ -26,6 +28,10 @@
                    <li><a href="drama.html">Drama</a></li>
                    <li><a href="comedia.html">Comedia</a></li>
                    <li><a href="thriller.html">Thriller</a></li>
+                   <li><a href="documental.html">Documental</a></li>
+                   <li><a href="policial.html">Policial</a></li>
+                   <li><a href="accion.html">Acción</a></li>
+                   <li><a href="experimental.html">Experimental</a></li>
                    <li><a href="romance.html">Romance</a></li>
                    <li><a href="scifi.html">Sci-Fi</a></li>
                    </ul>
@@ -40,59 +46,40 @@
        <h1>CINE CATÓDICO</h1> 
    </header>
 
-<main class="pelis">
-    <section class="contenedorPadre">
-        <div class="componentes">
-            <img src="imagenes/FEHER.jpg" width="250">
-            <li class="pelicula"> Marcell Jankovics | Hungría | 81min | 1981</li>
-        </div>
-        <div class="componentes">
-            <img src="imagenes/wendyandlicy.jpg" width="250">
-            <li class="pelicula"> Kelly Reichardt | Estados Unidos | 80min | 2008</li></div>
-        <div class="componentes">
-            <img src="imagenes/winterlight.jpg" width="250" >
-            <li class="pelicula">Ingmar Bergman | Suecia | 80min | 1962</li></div>
-        <div class="componentes">
-            <img src="imagenes/greysgarden.jpg" width="250">
-            <li class="pelicula">David Maysles & Albert Maysles | Estados Unidos | 95min | 1975</li></div>
-        <div class="componentes">
-            <img src="imagenes/dragon.jpg" width="250">
-            <li class="pelicula">Tsai Ming Liang | Taiwán | 82min | 2003</li></div>
-        <div class="componentes">
-            <img src="imagenes/pociag.jpg" width="250">
-            <li class="pelicula">Jerzy Kawalerowicz | Polonia | 97min | 1959</li></div>  
-    </div>
-</section>
-</main>
 
-<div class="row"><nav aria-label="navbar">
-  <ul class="pagination pagination-sm">
-    <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
-  </ul>
-</nav>
-</div>
-</div>
+<section>            
 
+            
 
-<footer>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="C:\scss\imagenes\1910.jpg" alt="1910">
+      </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
   
+</section>   
 
-  <div class="redes">
-    <div class="footer-social-icons" >
-      <ul class="social-icons"> 
+<footer> <div class="container border">
+    <div class="footer-social-icons">
+      <ul class="social-icons">
           <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
           <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
           <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
       </ul>
   </div>
   </div>
-  <p class="diseñador">Desarrollado por Felix De Cunto </p> 
-
 </footer>
 <script src="js/bootstrap.js"></script>
 </body>
-</html>
+    
+    </html>

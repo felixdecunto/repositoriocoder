@@ -14,11 +14,12 @@ ul {
 		font-size: 20px;
 		li {
 			padding: 10px;
-			font-size: 20px;
+			font-size: 15px;
 			background-color: rgb(0, 0, 0);
-			left: 4;
-			text-align: center;
+			margin-left: 1px;
 			justify-content: end;
+			display: block;
+			z-index: 999;
 		}
 	}
 	li {
@@ -38,7 +39,7 @@ ul {
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
-	text-align: initial;
+	text-align: center;
 	background-color: rgba(0, 0, 0, 0.541);
 	justify-content: space-between;
 }
@@ -46,4 +47,10 @@ ul {
 #buscador{
     text-align: right;
     margin-right: 80px;
+}
+
+.row{
+	justify-content: center;
+	margin-right: 10px;
+	background-color: transparent !important;
 }
