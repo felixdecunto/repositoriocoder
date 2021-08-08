@@ -60,39 +60,53 @@ h1 {
 #redes {
 	font-family: $fuente;
 	word-spacing: 1px;
-	color: rgb(72, 58, 90);
+	color: rgb(65, 50, 85);
 	text-align: left;
 }
 
 .tablon {
-font-family: $fuente;
-font-weight: bold;
+font-family: 'press start 2P', cursi ve;
 color: blanchedalmond;
 font-size: $font/4px;
-background-color: rgb(72, 58, 90);
+background-color:rgba(75, 51, 97, 0.295);
 margin-bottom: 60px;
 margin-right: 100px;
 margin-left: 100px;
 margin-top: 100px;
 border: solid;
-border-color: rgb(255, 255, 255);
+border-color: rgba(75, 51, 97, 0.527);
 padding: 40px;
 align-content: center;
+&:hover {
+	background-color:rgba(75, 39, 121, 0.623);
+	border-color: rgba(255, 255, 255, 0.747)}
 }
 
+.gen{
+	font-family: $fuente;
+	color: rgb(112, 112, 112);
+	font-size: 40px;
+	padding-left: 140px;	
+	padding-top: 15px;
+	height: 70px;
+	
+}
 
+hr{
+	border: solid 1px;
+	border-color: rgb(112, 112, 112);
+}
 
 .pelicula {
 	font-family: $fuente;
 	font-size: 19px;
 	background-color: rgb(72, 58, 90);
-	color: rgba(0, 0, 0, 0.705);
+	color: rgba(0, 0, 0, 0.605);
 	font-weight: bold;
 	padding: 7px;
 	padding-top: 10px;
-	&:hover {
-		color:rgb(0, 0, 0);}
 	}
+
 
 
 .contacto {
@@ -109,6 +123,12 @@ align-content: center;
 	display: inline-block;
 }
 
+.movie{
+	font-size: 20px;
+	color:rgba(217, 194, 224, 0.589);
+	&:hover {
+		color: rgb(255, 255, 255)}
+}
 
 .diseñador {
 	color: rgb(145, 144, 142);
@@ -120,14 +140,17 @@ align-content: center;
 h5 {
 	font-size: 150px;
 	font-family: $fuente;
-	color:rgba(69, 42, 104, 0.788);
-	border-radius: #fff;
 	font: bold;
 	margin-bottom: 130px;
 	text-justify: center;
 	text-align: center;
-	margin-right: 30px;
+	>a {
+		&:hover {
+			color: rgba(74, 39, 121, 0.747);
+		}
+	}
 }
+
 
 a {
 	text-decoration: none;

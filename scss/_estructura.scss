@@ -34,6 +34,7 @@ main {
 	margin-top: 20px;
 	margin-left: 80px;
 	margin-right: 80px;
+	margin-bottom: 40px;
 }
 
 
@@ -48,6 +49,9 @@ main {
 	background-color: rgba(75, 51, 97, 0.295);
 	border: rgba(75, 51, 97, 0.712) 2px solid;
 	overflow: auto;
+	&:hover {
+		background-color:rgba(75, 39, 121, 0.623);
+	}
 }
 
 #nos {
@@ -73,16 +77,17 @@ main {
 	border: rgba(74, 39, 121, 0.747) 1px solid;
 	&:hover {
 		transform: scale(113%, 113%);
-		border:#d9d9d9 solid 3px;
+		border:#d9d9d9 solid 3px;}
 	}
-}
+
 
 .carousel {
 	justify-content: center;
+	text-align: center;
 	width: 100%; 
     max-width: 1000px;
 	margin-top: 50px;
 	margin-left: 450px;
 	margin-bottom: 150px;
-	border:rgba(74, 39, 121, 0.747) solid 2px;
 }
+

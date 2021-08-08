@@ -2,7 +2,6 @@
 li {
 	display: inline-block;
 	position: relative;
-	border: solid;
 	font-size: 20px;
 	padding: 20px;
 	text-align: center;
@@ -40,8 +39,9 @@ ul {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.541);
+	background-color: rgba(0, 0, 0, 0.733);
 	justify-content: space-between;
+	border: solid;
 }
 
 #buscador{

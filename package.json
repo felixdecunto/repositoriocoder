@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixdecunto/repositoriocoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felixdecunto/repositoriocoder/issues"
+  },
+  "homepage": "https://github.com/felixdecunto/repositoriocoder#readme",
   "description": ""
 }

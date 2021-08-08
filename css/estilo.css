@@ -32,7 +32,8 @@ main {
   grid-template-areas: "section section section" "section section section" "section section section" "section section section";
   margin-top: 20px;
   margin-left: 80px;
-  margin-right: 80px; }
+  margin-right: 80px;
+  margin-bottom: 40px; }
 
 #nosotros {
   text-align: center;
@@ -45,6 +46,8 @@ main {
   background-color: rgba(75, 51, 97, 0.295);
   border: rgba(75, 51, 97, 0.712) 2px solid;
   overflow: auto; }
+  #nosotros:hover {
+    background-color: rgba(75, 39, 121, 0.623); }
 
 #nos {
   text-align: center;
@@ -69,17 +72,16 @@ main {
 
 .carousel {
   justify-content: center;
+  text-align: center;
   width: 100%;
   max-width: 1000px;
   margin-top: 50px;
   margin-left: 450px;
-  margin-bottom: 150px;
-  border: rgba(74, 39, 121, 0.747) solid 2px; }
+  margin-bottom: 150px; }
 
 li {
   display: inline-block;
   position: relative;
-  border: solid;
   font-size: 20px;
   padding: 20px;
   text-align: center; }
@@ -110,8 +112,9 @@ ul {
   display: flex;
   flex-direction: row;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.541);
-  justify-content: space-between; }
+  background-color: rgba(0, 0, 0, 0.733);
+  justify-content: space-between;
+  border: solid; }
 
 #buscador {
   text-align: right;
@@ -129,49 +132,61 @@ ul {
     grid-template-columns: repeat 1, 1fr;
     overflow-x: hidden; } }
 
-@media only screen and (min-width: 1024px) and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   header {
     grid-template-columns: 1, 1fr; }
   body {
-    grid-template-columns: repeat 1, 2fr; } }
-
-@media only screen and (min-width: 1024px) {
+    grid-template-columns: repeat 1, 1fr;
+    margin-bottom: 40px; }
   .contenedorPadre {
     display: flex;
     flex-direction: row;
-    align-content: space-between; } }
+    align-content: space-between; }
+  h5 a {
+    position: relative; } }
 
 @media only screen and (max-width: 768px) {
   header {
     grid-template-columns: 1, 1fr;
-    margin-bottom: 40px;
-    display: block; }
+    margin-bottom: 40px; }
   body {
     grid-template-columns: repeat 1, 1fr;
     background-repeat: repeat-x;
     background-size: 95%; }
+  .gen {
+    font-size: 40px;
+    margin-top: 120px;
+    justify-content: center; }
+  hr {
+    border: solid 1px;
+    border-color: #707070; }
   #tabla {
     display: initial; }
   .pelis {
     grid-template-columns: 190% auto 10%;
-    margin-top: 120px;
+    margin-top: 10px;
     margin-left: 15px;
     display: flex;
     flex-direction: column; }
-  #carouselExampleControls {
-    margin-top: 150px;
-    margin-left: 2px; }
+  .carousel {
+    margin-top: 170px;
+    margin-left: 2px;
+    margin-right: 3px; }
+  h5 a {
+    font-size: 100px;
+    position: absolute; }
   .componentes {
     border: #72000000 solid 3px; }
     .componentes:hover {
       border: rgba(74, 39, 121, 0.747) solid 3px;
-      transform: scale(100%, 100%); }
+      transform: scale(105%, 105%); }
   .tablon {
     margin-top: 200px;
     align-content: initial;
-    margin-bottom: 60px;
-    padding: 150px;
-    margin-right: 70px; }
+    margin-bottom: 30px;
+    padding: 100px;
+    margin-right: 40px;
+    font-size: 10px; }
   #coment {
     width: 200px;
     height: 300px;
@@ -192,7 +207,7 @@ ul {
     display: flex;
     flex-direction: column; }
   footer {
-    margin-top: 200px; }
+    margin-top: 80px; }
   nav {
     margin: 10px; }
   .encabezado {
@@ -201,10 +216,11 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.507); }
+    background-color: rgba(0, 0, 0, 0.678); }
   h1 {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    margin-bottom: 300px; } }
 
 .btn--.fa-facebook {
   padding: 10px 14px;
@@ -321,34 +337,46 @@ h1 {
 #redes {
   font-family: Arial, Helvetica, sans-serif;
   word-spacing: 1px;
-  color: #483a5a;
+  color: #413255;
   text-align: left; }
 
 .tablon {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'press start 2P', cursi ve;
   color: blanchedalmond;
   font-size: 20;
-  background-color: #483a5a;
+  background-color: rgba(75, 51, 97, 0.295);
   margin-bottom: 60px;
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 100px;
   border: solid;
-  border-color: white;
+  border-color: rgba(75, 51, 97, 0.527);
   padding: 40px;
   align-content: center; }
+  .tablon:hover {
+    background-color: rgba(75, 39, 121, 0.623);
+    border-color: rgba(255, 255, 255, 0.747); }
+
+.gen {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #707070;
+  font-size: 40px;
+  padding-left: 140px;
+  padding-top: 15px;
+  height: 70px; }
+
+hr {
+  border: solid 1px;
+  border-color: #707070; }
 
 .pelicula {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
   background-color: #483a5a;
-  color: rgba(0, 0, 0, 0.705);
+  color: rgba(0, 0, 0, 0.605);
   font-weight: bold;
   padding: 7px;
   padding-top: 10px; }
-  .pelicula:hover {
-    color: black; }
 
 .contacto {
   font-family: Arial, Helvetica, sans-serif;
@@ -362,6 +390,12 @@ h1 {
 .we {
   display: inline-block; }
 
+.movie {
+  font-size: 20px;
+  color: rgba(217, 194, 224, 0.589); }
+  .movie:hover {
+    color: white; }
+
 .diseñador {
   color: #91908e;
   font-family: Arial, Helvetica, sans-serif;
@@ -371,13 +405,12 @@ h1 {
 h5 {
   font-size: 150px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(69, 42, 104, 0.788);
-  border-radius: #fff;
   font: bold;
   margin-bottom: 130px;
   text-justify: center;
-  text-align: center;
-  margin-right: 30px; }
+  text-align: center; }
+  h5 > a:hover {
+    color: rgba(74, 39, 121, 0.747); }
 
 a {
   text-decoration: none;
